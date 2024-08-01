@@ -612,7 +612,6 @@ message HasLicenseReply {
   string err = 2;
 }
 
-
 // SystemView exposes system configuration information in a safe way for plugins
 // to consume. Plugins should implement the client for this service.
 service SystemView {
